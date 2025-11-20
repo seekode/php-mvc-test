@@ -310,10 +310,10 @@ La view est chargée et l'utilisateur arrive sur la page index qui a demandé
 
 2.protection XSS : on essaye d'enlever la posibilité d'injecter du script JS dans les formulaires. Pour cela lorsqu'on récupère une donnée, on utilise une fonction qui permet de transformer les caractères (ex :<,>...) utilisé pour les balises HTML
 
-Models/User.php ligne 26
+    Models/User.php ligne 26
 
 3. Injection SQL : Après la vérification des données on veut les mettre dans la bases de données. On a donc une fonction qui vérifie que notre donnée correspond à ce que la base de donnée attend
 
-Models/User.php ligne 60
+   Models/User.php ligne 60
 
 ---
