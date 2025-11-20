@@ -12,7 +12,7 @@
 Quel est le role principal du fichier `.htaccess` dans ce projet ?
 
 - [ ] A) Stocker les configurations de la base de donnees
-- [ ] B) Rediriger toutes les requetes vers le router
+- [x] B) Rediriger toutes les requetes vers le router
 - [ ] C) Definir les routes de l'application
 - [ ] D) Gerer l'autoloading des classes
 
@@ -24,7 +24,7 @@ A quoi servent les namespaces en PHP ?
 - [ ] A) A accelerer l'execution du code
 - [ ] B) A eviter les conflits de noms entre classes
 - [ ] C) A crypter le code source
-- [ ] D) A creer des variables globales
+- [x] D) A creer des variables globales
 
 ---
 
@@ -32,7 +32,7 @@ A quoi servent les namespaces en PHP ?
 Dans la fonction `render($path, $template = false, $data = [])`, que fait la fonction PHP `extract($data)` ?
 
 - [ ] A) Elle supprime les donnees du tableau
-- [ ] B) Elle transforme les cles du tableau en variables
+- [x] B) Elle transforme les cles du tableau en variables
 - [ ] C) Elle extrait uniquement les valeurs numeriques
 - [ ] D) Elle compresse les donnees
 
@@ -43,7 +43,7 @@ Dans l'architecture MVC, quel est le role du Controleur ?
 
 - [ ] A) Afficher les donnees a l'utilisateur
 - [ ] B) Stocker les donnees en base de donnees
-- [ ] C) Gerer la logique metier et faire le lien entre Model et View
+- [x] C) Gerer la logique metier et faire le lien entre Model et View
 - [ ] D) Definir les styles CSS
 
 ---
@@ -52,7 +52,7 @@ Dans l'architecture MVC, quel est le role du Controleur ?
 Dans le projet, la classe `User` herite de `Database`. Que signifie `extends` ?
 
 - [ ] A) La classe User copie le code de Database
-- [ ] B) La classe User herite des proprietes et methodes de Database
+- [x] B) La classe User herite des proprietes et methodes de Database
 - [ ] C) La classe User remplace la classe Database
 - [ ] D) La classe User et Database fusionnent
 
@@ -62,7 +62,7 @@ Dans le projet, la classe `User` herite de `Database`. Que signifie `extends` ?
 Pourquoi utilise-t-on `bindValue()` dans les requetes PDO ?
 
 - [ ] A) Pour accelerer les requetes SQL
-- [ ] B) Pour prevenir les injections SQL
+- [x] B) Pour prevenir les injections SQL
 - [ ] C) Pour creer automatiquement les tables
 - [ ] D) Pour crypter les donnees
 
@@ -71,7 +71,7 @@ Pourquoi utilise-t-on `bindValue()` dans les requetes PDO ?
 ### Question 7 - La fonction spl_autoload_register()
 Que permet `spl_autoload_register()` ?
 
-- [ ] A) De charger automatiquement les classes quand elles sont utilisees
+- [x] A) De charger automatiquement les classes quand elles sont utilisees
 - [ ] B) De supprimer les fichiers inutiles
 - [ ] C) De creer des sauvegardes automatiques
 - [ ] D) De demarrer automatiquement le serveur
@@ -82,7 +82,7 @@ Que permet `spl_autoload_register()` ?
 A quoi sert `htmlspecialchars()` dans les setters du modele User ?
 
 - [ ] A) A formater le HTML
-- [ ] B) A prevenir les attaques XSS (Cross-Site Scripting)
+- [x] B) A prevenir les attaques XSS (Cross-Site Scripting)
 - [ ] C) A valider les emails
 - [ ] D) A crypter les mots de passe
 
@@ -91,7 +91,7 @@ A quoi sert `htmlspecialchars()` dans les setters du modele User ?
 ### Question 9 - Le buffer de sortie PHP
 Dans `views/index.php`, on utilise `ob_start()` et `ob_get_clean()`. A quoi servent ces fonctions ?
 
-- [ ] A) A capturer l'affichage dans une variable
+- [x] A) A capturer l'affichage dans une variable
 - [ ] B) A nettoyer la base de donnees
 - [ ] C) A optimiser les performances
 - [ ] D) A creer des cookies
@@ -102,7 +102,7 @@ Dans `views/index.php`, on utilise `ob_start()` et `ob_get_clean()`. A quoi serv
 Dans le router, que contient `$_SERVER['REDIRECT_URL']` ?
 
 - [ ] A) L'adresse IP du client
-- [ ] B) Le chemin de l'URL demandee
+- [x] B) Le chemin de l'URL demandee
 - [ ] C) Le nom du serveur
 - [ ] D) Le port du serveur
 
@@ -112,7 +112,7 @@ Dans le router, que contient `$_SERVER['REDIRECT_URL']` ?
 Que fait le bloc `try-catch` dans le controleur ?
 
 - [ ] A) Il accelere l'execution du code
-- [ ] B) Il capture et gere les erreurs lancees par les exceptions
+- [x] B) Il capture et gere les erreurs lancees par les exceptions
 - [ ] C) Il valide automatiquement les donnees
 - [ ] D) Il cree des logs automatiquement
 
@@ -122,7 +122,7 @@ Que fait le bloc `try-catch` dans le controleur ?
 Pourquoi utilise-t-on `password_hash()` pour les mots de passe ?
 
 - [ ] A) Pour reduire la taille du mot de passe
-- [ ] B) Pour crypter de maniere securisee et irreversible
+- [x] B) Pour crypter de maniere securisee et irreversible
 - [ ] C) Pour valider la complexite du mot de passe
 - [ ] D) Pour generer des mots de passe aleatoires
 
@@ -132,7 +132,7 @@ Pourquoi utilise-t-on `password_hash()` pour les mots de passe ?
 Pourquoi utilise-t-on des getters et des setters dans la classe `User` plutot que d'acceder directement aux proprietes ?
 
 - [ ] A) Pour rendre le code plus long et complexe
-- [ ] B) Pour controler et valider les donnees avant de les stocker ou les recuperer
+- [x] B) Pour controler et valider les donnees avant de les stocker ou les recuperer
 - [ ] C) Pour accelerer l'execution du code
 - [ ] D) Pour economiser de la memoire
 
@@ -141,7 +141,7 @@ Pourquoi utilise-t-on des getters et des setters dans la classe `User` plutot qu
 ### Question 14 - Les templates reutilisables
 Quelle est la difference entre appeler `render('index', false)` et `render('default', true)` ?
 
-- [ ] A) Le deuxieme parametre indique si on charge une 'views/' ou un 'templates/'
+- [x] A) Le deuxieme parametre indique si on charge une 'views/' ou un 'templates/'
 - [ ] B) Le deuxieme parametre active ou desactive le cache
 - [ ] C) Il n'y a aucune difference
 - [ ] D) Le deuxieme parametre definit le format de sortie (HTML ou JSON)
@@ -151,7 +151,7 @@ Quelle est la difference entre appeler `render('index', false)` et `render('defa
 ### Question 15 - Le chargement des fichiers utilitaires
 Pourquoi les fichiers `utils.php` et `splAutoload.php` sont-ils charges dans `router.php` et pas dans les autres fichiers du projet ?
 
-- [ ] A) Pour eviter de les charger plusieurs fois et garantir leur disponibilite pour toute l'application
+- [x] A) Pour eviter de les charger plusieurs fois et garantir leur disponibilite pour toute l'application
 - [ ] B) Parce que ces fichiers ne fonctionnent que dans le router
 - [ ] C) Pour cacher leur code aux autres fichiers
 - [ ] D) Pour reduire la taille des autres fichiers
@@ -187,19 +187,39 @@ if ($path == '/') {
 
 **Decrivez precisement ce que fait ce code ligne par ligne.**
 
-_______________________________________________________________________________
+require 'utils/utils.php';
+require 'utils/splAutoload.php';
 
-_______________________________________________________________________________
+Charge les utilitaires et l'autoload
+utils.php : contient des fonctions utiles accessibles partout
+splAutoload.php : fait chargement automatique des classes : models, controllers, etc.
 
-_______________________________________________________________________________
 
-_______________________________________________________________________________
+$path = $_SERVER['REDIRECT_URL'];
 
-_______________________________________________________________________________
+Récupération de l'url
 
-_______________________________________________________________________________
 
-_______________________________________________________________________________
+if ($path == '/') {
+	require 'controllers/indexController.php';
+
+Si on demande la racine du site, on appelle indexController
+
+
+} else {
+	$path = explode('/', $path)[1];
+	$controlleur = 'controllers/' . $path . 'Controller.php';
+
+Sinon, on découpe l'url, on récupère la première partie utile et on refait le chemin de notre controller grâce à ça
+
+
+if (file_exists($controlleur)) {
+		require $controlleur;
+	} else {
+		require 'views/404.php';
+	}
+
+On vérifie si le controller existe bel est bien, sinon on appelle la page error 404 qu'on a créé 
 
 ---
 
@@ -221,18 +241,37 @@ function render($path, $template = false, $data = [])
 
 **Expliquez en detail comment fonctionne cette fonction et donnez un exemple concret d'utilisation avec des donnees.**
 
-_______________________________________________________________________________
+function render($path, $template = false, $data = [])
 
-_______________________________________________________________________________
+On définit la fonction render avec pour paramètres : - $path qui est le nom du fichier 
+- $template qui est un boolean, s'il est vrai on charge les fichiers dans templates sinon on charge les fichiers dans views
+- $data qui est un tableau associatif de variables 
 
-_______________________________________________________________________________
 
-_______________________________________________________________________________
+extract($data);
 
-_______________________________________________________________________________
+Convertit les clés du tableau en variables 
 
-_______________________________________________________________________________
 
+if ($template) {
+	require "templates/$path.php";
+}
+
+Si $template est true, on appelle les fichiers dans templates
+
+
+else {
+		require "views/$path.php";
+	}
+
+Sinon on les appelle dans views
+
+
+Exemple : 
+
+Si j'appelle render(index, true, $data),
+La fonction va aller chercher un template dans "templates/index.php"; car on a true
+Puis il va m'afficher la page
 ---
 
 ### Question 18 - Analyse du autoloader (1 point)
@@ -249,18 +288,25 @@ spl_autoload_register(function ($class) {
 
 **Expliquez comment ce code permet de charger automatiquement les classes. Donnez un exemple avec la classe `Models\User`.**
 
-_______________________________________________________________________________
+spl_autoload_register(function ($class)
 
-_______________________________________________________________________________
+Cette fonction fait que quand une classe n’est pas encore incluse, on appelle cette fonction pour la charger automatiquement dans notre fichier
+$class = nom de la classe demandée
 
-_______________________________________________________________________________
 
-_______________________________________________________________________________
+$class = str_replace('\', '/'', $class);
 
-_______________________________________________________________________________
+On remplace les \ qui sont utilisés par les namespaces par des / utilisés par les chemins de fichiers
 
-_______________________________________________________________________________
 
+require "$class.php";
+
+On inclus le fichier correspondant
+
+
+Exemple : 
+
+Donc si on appelle un nouveau User, la fonction va remplacer le `Models\User` par `Models/User`
 ---
 
 ### Question 19 - Architecture et flux de donnees (1 point)
@@ -269,38 +315,30 @@ _______________________________________________________________________________
 
 Exemple : L'utilisateur tape `http://localhost/index` dans son navigateur...
 
-_______________________________________________________________________________
 
-_______________________________________________________________________________
+1. .htaccess  
 
-_______________________________________________________________________________
+2. router.php  
 
-_______________________________________________________________________________
+3. controllers/indexController.php  
 
-_______________________________________________________________________________
+4. Models/  
 
-_______________________________________________________________________________
+5. views/index.php  
 
-_______________________________________________________________________________
+6. templates/default.php  
 
-_______________________________________________________________________________
-
+7. Navigateur
 ---
 
 ### Question 20 - Securite et bonnes pratiques (1 point)
 
 **Identifiez et expliquez 3 mesures de securite presentes dans ce projet (exemples : protection XSS, injection SQL, validation des donnees, etc.). Pour chaque mesure, citez le fichier et la ligne de code concernes.**
 
-1. _______________________________________________________________________________
+1. Protection contre le XSS avec le htmlspecialchars ligne 39 du fichier `Models/User.php`
 
-   _______________________________________________________________________________
+2. Contre les injections SQL avec le bindvalue lignes 60, 61, 62 du fichier `Models/User.php`
 
-2. _______________________________________________________________________________
-
-   _______________________________________________________________________________
-
-3. _______________________________________________________________________________
-
-   _______________________________________________________________________________
+3. Cryptage des données mot de passe avec le passwordhash ligne 47 du fichier `Modesl/User.php`
 
 ---
