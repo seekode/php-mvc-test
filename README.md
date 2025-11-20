@@ -1,7 +1,6 @@
 # Examen PHP Avance - Architecture MVC
 
 **Nom:** ___________________  
-**Date:** ___________________  
 **Duree:** 1h30  
 **Total:** 20 points (1 point par question)
 
